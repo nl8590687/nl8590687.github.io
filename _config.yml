@@ -57,17 +57,17 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: ailemon
+disqus_username: ailemon
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 1b30c09a8bad4cd38d31                            #生成的clientID
-  clientSecret: 6c188b64cb37ed322af17572bdfdfb4c3e18a6a0    #生成的clientSecret
-  repo: nl8590687.github.io    #仓库名称
-  owner: nl8590687    #github用户名
-  admin: nl8590687
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+#gitalk:
+#  enable: true    #是否开启Gitalk评论
+#  clientID: 1b30c09a8bad4cd38d31                            #生成的clientID
+#  clientSecret: 6c188b64cb37ed322af17572bdfdfb4c3e18a6a0    #生成的clientSecret
+#  repo: nl8590687.github.io    #仓库名称
+#  owner: nl8590687    #github用户名
+#  admin: nl8590687
+#  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
