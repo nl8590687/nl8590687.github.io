@@ -153,6 +153,16 @@ layout: default
                                 </a>
                             </li>
                             {% endif %}
+							{% if site.zhihu_zhuanlan %}
+							<li>
+								<a target="_blank" href="https://zhuanlan.zhihu.com/{{ site.zhihu_zhuanlan }}">
+									<span class="fa-stack fa-lg">
+										<i class="fa fa-circle fa-stack-2x"></i>
+										<i class="fa  fa-stack-1x fa-inverse">栏</i>
+									</span>
+								</a>
+							</li>
+							{% endif %}
                             {% if site.weibo_username %}
                             <li>
                                 <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
@@ -190,16 +200,7 @@ layout: default
                         {% endif %}
                     </div>
                 </section>
-                <!-- Friends Blog -->
-                {% if site.friends %}
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
-                    {% for friend in site.friends %}
-                        <li><a href="{{friend.href}}">{{friend.title}}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
+                
     		</div>
         {% endif %}
 	</div>

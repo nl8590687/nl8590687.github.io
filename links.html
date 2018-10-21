@@ -14,17 +14,18 @@ header-img: "img/mainpage-header.jpg"
 <!-- Chinese Version -->
 <div class="zh post-container">
 
-    <!--copied from markdown -->
-    <blockquote><p>Make a little progress every day~</p></blockquote>
-	<h5>aiLemon, IT Tech Fan, An Undergratuate Student in Xidian University, Programer, Computer Science</h5>
-    <a href=""></a>
-	<p></p>
-
-	<h2>Contact me: </h2>
-	<p>Email:<br>
-ailemon [AT] ailemon.me&nbsp; &nbsp; ( “[AT]” is ”@” )<br>
-ailemon_me [AT] outlook.com&nbsp; &nbsp; ( “[AT]” is ”@” )<br>
-Twitter:&nbsp; &nbsp; &nbsp;@ailemon_me<br>
+	<!-- Friends Blog -->
+    {% if site.friends %}
+    <hr>
+    <h5>FRIENDS</h5>
+    <ul class="list-inline">
+    {% for friend in site.friends %}
+    <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+	
+    
 Blog in Chinese: <a href="https://blog.ailemon.me">https://blog.ailemon.me</p>
 
 <p>&nbsp;</p>

@@ -11,7 +11,7 @@ github_repo: "https://github.com/nl8590687/nl8590687.github.io" # you code repos
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "Make a little progress every day~"
 sidebar-avatar: /img/about-ailemon.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -98,18 +98,13 @@ service-worker: true
 
 
 # Friends
-#friends: [
-#    {
-#        title: "WY",
-#        href: "http://zhengwuyang.com"
-#    },{
-#        title: "简书·BY",
-#        href: "http://www.jianshu.com/u/e71990ada2fd"
-#    },{
-#        title: "Apple",
-#        href: "https://apple.com"
-#    },{
-#        title: "Apple Developer",
-#        href: "https://developer.apple.com/"
-#    }
-#]
+friends: [
+    {
+        title: "aiLemon Blog in Chinese",
+        href: "https://blog.ailemon.me"
+    },
+    {
+        title: "ASRT Project",
+        href: "https://asrt.ailemon.me"
+    }
+]
